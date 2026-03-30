@@ -76,8 +76,9 @@ sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 
-echo "Hello from $(hostname)" | sudo tee /var/www/html/index.html
+
 ```
+create a index.html file in  location  /var/www/html/index.html
 
 -----
 
